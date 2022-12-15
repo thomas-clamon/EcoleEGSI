@@ -20,4 +20,9 @@ public class EtudiantRessources {
     public String fullName() {
         return "CHAMBRE_Ryan";
     }
+
+    @GetMapping("someone")
+    public String jesaispas() {
+        return "";
+    }
 }
