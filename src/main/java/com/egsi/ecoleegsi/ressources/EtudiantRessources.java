@@ -14,4 +14,11 @@ public class EtudiantRessources {
     {
         return "Bonjour";
     }
+
+    @GetMapping("calista")
+    // New endpoint to say hello
+    public String print_calista()
+    {
+        return "Calista Martinez 20 ans";
+    }
 }
