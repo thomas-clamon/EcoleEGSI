@@ -1,11 +1,13 @@
 package com.egsi.ecoleegsi.ressources;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.egsi.ecoleegsi.dto.EtudiantDto;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("Etudiant")
 public class EtudiantRessources {
-
+    @PostMapping("age")
+    public Integer afficherAge(@RequestBody EtudiantDto dto){
+        return dto.calculerAge();
+    }
 }
