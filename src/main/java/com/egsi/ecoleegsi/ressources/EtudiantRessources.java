@@ -14,4 +14,9 @@ public class EtudiantRessources {
     {
         return "Bonjour";
     }
+
+    @GetMapping("thomas")
+    public String toto(){
+        return "Thomas CLAMON 32 ans";
+    }
 }
