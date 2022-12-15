@@ -6,24 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("Etudiant")
-public class EtudiantRessources {
+public class EtudiantRessourcesYoan {
 
-    @GetMapping("hello")
+    @GetMapping("yoan")
     // New endpoint to say hello
     public String test()
     {
-        return "Bonjour";
-    }
-
-    @GetMapping("thomas")
-    public String toto(){
-        return "Thomas CLAMON 32 ans";
-    }
-
-    @GetMapping("calista")
-    // New endpoint to say hello
-    public String print_calista()
-    {
-        return "Calista Martinez 20 ans";
+        return "Bonjour, moi c'est Yoan MARTINS";
     }
 }
