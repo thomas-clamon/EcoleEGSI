@@ -15,6 +15,11 @@ public class EtudiantRessources {
         return "Bonjour";
     }
 
+    @GetMapping("thomas")
+    public String toto(){
+        return "Thomas CLAMON 32 ans";
+    }
+
     @GetMapping("calista")
     // New endpoint to say hello
     public String print_calista()

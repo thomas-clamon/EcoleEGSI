@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("Etudiant")
-public class EtudiantRessources {
+public class EtudiantRessourcesYoan {
 
     @GetMapping("yoan")
     // New endpoint to say hello
