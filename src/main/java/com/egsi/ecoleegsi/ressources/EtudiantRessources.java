@@ -26,4 +26,9 @@ public class EtudiantRessources {
     {
         return "Calista Martinez 20 ans";
     }
+
+    @GetMapping("someone")
+    public String jesaispas() {
+        return "";
+    }
 }
