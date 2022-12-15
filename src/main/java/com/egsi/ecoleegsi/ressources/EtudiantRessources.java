@@ -14,4 +14,10 @@ public class EtudiantRessources {
     {
         return "Bonjour";
     }
+
+    @GetMapping("ryan")
+    // New endpoint to get full name of ryan
+    public String fullName() {
+        return "CHAMBRE_Ryan";
+    }
 }
